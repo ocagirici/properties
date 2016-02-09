@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building dist 1.0.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ dist ---
+[INFO] Deleting /home/onr/workspace/properties-dist/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dist ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dist ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 17 source files to /home/onr/workspace/properties-dist/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dist ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/onr/workspace/properties-dist/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ dist ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ dist ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ dist ---
+[INFO] Building jar: /home/onr/workspace/properties-dist/target/dist-1.0.0.jar
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ dist ---
+auth.endpoint.uri, java.net.uri, https://authserver/v1/auth
+aws_access_key, java.lang.String, AKIAJSF6XRIJNJTTTL3Q
+aws_account_id, java.lang.Integer, 12345678
+aws_region_id, com.amazonaws.regions.Regions, us-east-1
+aws_secret_key, java.lang.String, pmqnweEYvdiw7cvCdTOES48sOUvK1rGvvctBsgsa
+JDBC_PASSWORD, java.lang.String, password123
+JDBC_URL, java.net.uri, jdbc:mysql://localhost/test
+JDBC_USERNAME, java.lang.String, username123
+job.timeout, java.lang.Integer, 3600
+JPA_SHOWSQL, java.lang.Boolean, true
+score.factor, java.lang.Double, 2.4
+sns.broadcast.topic_name, java.lang.String, broadcast
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.835 s
+[INFO] Finished at: 2016-02-08T10:18:42-08:00
+[INFO] Final Memory: 17M/141M
+[INFO] ------------------------------------------------------------------------
